@@ -31,8 +31,8 @@ jobs:
 
 
       #- run: mvn dependency:go-offline
-      - run: echo "A first hello"
-
+      - run: run: make test | tee test-output.log
+      
       - save_cache:
           paths:
             - ~/.m2

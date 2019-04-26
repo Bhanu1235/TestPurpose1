@@ -37,6 +37,5 @@ jobs:
           paths:
             - ~/.m2
           key: TestPurpose1-{{ checksum "pom.xml" }}
-
       # run tests!
       - run: mvn integration-test

@@ -31,7 +31,7 @@ jobs:
 
 
       #- run: mvn dependency:go-offline
-      - run: make test | tee test-output.log
+      - run: make pom.xml
       
       - save_cache:
           paths:

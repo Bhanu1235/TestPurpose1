@@ -11,7 +11,7 @@ public class NewTest {
 		@Test				
 		public void testEasy() {	
 							 
-			System.out.println("Test Purpose1234");
+			System.out.println("Test Purpose12346");
 			
 		}		
 }
